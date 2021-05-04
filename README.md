@@ -7,8 +7,8 @@ This repository is designed to deploy applications and services to a minikube ku
 
 ## Usage
 1. Use the command `minikube start` to spin up a local kubernetes cluster
-2. Use the `python-redis-worker-queue` folder as a template to define your own kuberenetes deployment
-3. Run `terraform init` within your new folder to initialise the directory
-4. Use `terraform apply` to apply your deployment changes
-5. Once done, run `terraform destroy` to delete your changes
-6. Finally you can use `minikube stop` to pause your cluster or `minikube delete --all` to delete the cluster permenantly
+2. Use the `python-redis-worker-queue` folder as a template to define a new kuberenetes deployment
+3. Run `terraform init` within the new folder to initialise the directory
+4. Use `terraform apply` to apply the deployment changes
+5. Once done, run `terraform destroy` to delete the changes
+6. Finally you can use `minikube stop` to pause the cluster or `minikube delete --all` to delete the cluster permenantly
