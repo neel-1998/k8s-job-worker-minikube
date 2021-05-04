@@ -3,6 +3,7 @@ This repository is designed to deploy applications and services to a minikube ku
 
 ## Requirements
 - `Minikube (version >= v1.19.0)` is installed and running (kubeconfig should be automatically configured from this)
+- `Docker (version >= 20.10.5)` installed and running
 - `Terraform (version >= v0.15.1)` is installed
 
 ## Usage
